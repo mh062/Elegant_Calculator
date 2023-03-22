@@ -1,13 +1,19 @@
-package test1;
+package branch;
 
-public class test1 {
+public class branch{
     int roll;
     String name;
-    int year;
+    int age;
 
-three
-    test1 (String n,int r)
+    public int getAge() {
+        return age;
+    }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    branch (String n, int r)
     {
         this.roll=r;
         this.name=n;
